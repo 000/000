@@ -12,9 +12,17 @@ def replace(text, name, body):
     return pat.sub(lambda m: f"{m.group(1)}\n{body}\n{m.group(2)}", text)
 
 
+def featured_repos():
+    """Pinned repos from GraphQL; the Actions GITHUB_TOKEN often sees none, so fall back to config's pin list."""
+    if data.get("pinned"):
+        return data["pinned"][:6]
+    by = {r["name"]: r for r in data["repos"]}
+    return [by[n] for n in cfg["proposed_pins"] if n in by]
+
+
 def featured():
     rows = []
-    for r in data["pinned"][:6]:
+    for r in featured_repos():
         line = cfg["featured_overrides"].get(r["name"]) or r["description"] or "PLACEHOLDER: add a one-line description to this repo."
         meta = " · ".join(x for x in [r.get("language"), f"★ {r['stars']}" if r.get("stars") else None] if x)
         rows.append(f"- **[{r['name']}]({r['url']})**: {line}" + (f" <sub>{meta}</sub>" if meta else ""))
