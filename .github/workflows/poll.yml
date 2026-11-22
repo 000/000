@@ -1,0 +1,46 @@
+# Issue-driven poll: an issue titled "poll: A" counts one vote per account, redraws the card, closes the issue.
+name: poll-vote
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency: { group: profile-write, cancel-in-progress: false }
+jobs:
+  vote:
+    if: startsWith(github.event.issue.title, 'poll:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Tally (untrusted input passed via env, never inlined)
+        id: tally
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          set +e
+          msg=$(python scripts/tally_poll.py); code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          { echo "msg<<EOF"; echo "$msg"; echo "EOF"; } >> "$GITHUB_OUTPUT"
+      - name: Redraw and commit
+        if: steps.tally.outputs.code == '0'
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          cd scripts && python render_poll.py && cd ..
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/poll.json assets/poll-*.svg
+          git commit -m "poll: vote from @$ISSUE_USER"
+          git pull --rebase && git push
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG: ${{ steps.tally.outputs.msg }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "$MSG See the result: https://github.com/${{ github.repository_owner }}"
+          gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --reason completed

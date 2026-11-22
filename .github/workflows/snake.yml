@@ -1,0 +1,25 @@
+# Daily: bake the contribution snake into the `output` branch so main history stays clean.
+name: snake
+on:
+  schedule: [{ cron: "37 23 * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ff9e3d&color_dots=#161b22,#4d3215,#8a5420,#c7772b,#ff9e3d&color_dot_border=#0d1117
+            dist/snake-light.svg?color_snake=#bc4c00&color_dots=#eff2f5,#f3d3b8,#e5a46f,#d07a37,#bc4c00&color_dot_border=#ffffff
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
