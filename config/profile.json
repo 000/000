@@ -1,0 +1,126 @@
+{
+  "_note": "Static facts the API cannot provide. Every value here was found in public sources on 2026-11-23 unless it starts with PLACEHOLDER.",
+  "login": "000",
+  "legal_name": "Tanat Tonguthaisri",
+  "thai_name": "ธนัท ทองอุทัยศรี",
+  "positioning": "Data engineering for loan-restructuring analytics at Thailand's Student Loan Fund (กยศ.): lakehouse, streaming and search, shaped by case-based reasoning research since 2003.",
+  "neofetch": [
+    [
+      "OS",
+      "Bangkok, TH · UTC+7"
+    ],
+    [
+      "Host",
+      "Student Loan Fund (กยศ.) · IT Specialist"
+    ],
+    [
+      "Kernel",
+      "CISSP · CCSK"
+    ],
+    [
+      "Shell",
+      "Data engineering for loan-restructuring analytics"
+    ],
+    [
+      "Studying",
+      "MSc student @ Woolf (woolf.education)"
+    ],
+    [
+      "Teaching",
+      "Sessional lecturer @ SAU (sau.ac.th)"
+    ],
+    [
+      "Research",
+      "M.Eng by Research, RMIT · CBR thesis (arXiv 2611.08572)"
+    ],
+    [
+      "Stack.Data",
+      "Databricks · DataStax · Confluent · Redis · Elastic"
+    ]
+  ],
+  "contact": [
+    [
+      "X",
+      "x.com/gastronomy"
+    ],
+    [
+      "LinkedIn",
+      "linkedin.com/in/epicure"
+    ]
+  ],
+  "stack": [
+    [
+      "DATA PLATFORMS",
+      [
+        "Databricks",
+        "DataStax",
+        "Confluent / Kafka",
+        "Redis",
+        "Elastic"
+      ]
+    ],
+    [
+      "AI / ML",
+      [
+        "Case-based reasoning",
+        "PySpark",
+        "Jupyter",
+        "LLM product design"
+      ]
+    ],
+    [
+      "INFRA & TRUST",
+      [
+        "GitHub Actions",
+        "PKI / WebTrust",
+        "Zero Trust (NIST SP 800-207)",
+        "CISSP"
+      ]
+    ]
+  ],
+  "featured_overrides": {
+    "000": "Profile README: neofetch-style SVG, live issue poll and daily feed, rebuilt by GitHub Actions",
+    "udacity-nd088-llm-product-proposal": "LLM expert-advisor product proposal (LineGuide) with an editable deck, sources and reproducible verification.",
+    "2022Q4-PySpark-EDA-DataPrep": "Coursework: PySpark EDA and data prep, plus my Dataproc jobs and Airflow DAG (MSSQL → HDFS → Spark ML)",
+    "background-samplers": "Animated background sampler: 10 canvas modes with keyboard cycling. React, TanStack Router, Vite",
+    "000.github.io": "Source of defense.engineer: my site, research explainers and bilingual Borrow to Learn policy pages",
+    "PDF": "Python and PHP tools to stamp, watermark and rebuild scanned Thai forms as fillable PDFs"
+  },
+  "proposed_pins": [
+    "000",
+    "udacity-nd088-llm-product-proposal",
+    "2022Q4-PySpark-EDA-DataPrep",
+    "background-samplers",
+    "000.github.io",
+    "PDF"
+  ],
+  "papers": [
+    {
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "venue": "arXiv:2611.08572 [cs.AI, cs.CY] · submitted 5 Nov 2026 · proofread edition of the Aug 2003 RMIT M.Eng thesis",
+      "url": "https://arxiv.org/abs/2611.08572"
+    },
+    {
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "venue": "Zenodo record 23936099 · thesis, publication date 1 Aug 2003",
+      "url": "https://zenodo.org/records/23936099"
+    },
+    {
+      "title": "SSRN thesis listing (abstract 7696240)",
+      "venue": "title not shown: the SSRN page could not be fetched on 23 Nov 2026",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7696240",
+      "_note": "Replace the title once SSRN can be read; do not guess it."
+    }
+  ],
+  "poll": {
+    "question": "Which write-up should I publish next?",
+    "_note": "PLACEHOLDER options: confirm or replace before going live.",
+    "options": {
+      "A": "Streaming loan events: Confluent → Databricks",
+      "B": "Case-based reasoning meets vector search",
+      "C": "PySpark data prep for restructuring cohorts",
+      "D": "PKI & Zero Trust for public-sector data"
+    }
+  },
+  "_instagram_note": "Instagram /malware kept unchanged at the owner's request."
+}
