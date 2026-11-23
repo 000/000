@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:42:18+00:00",
+ "generated_at": "2026-11-23T03:46:14+00:00",
  "source": "graphql",
  "name": "Tanat Tonguthaisri",
  "login": "000",
@@ -21,7 +21,7 @@
    2
   ]
  ],
- "contributions_last_year": 382,
+ "contributions_last_year": 391,
  "calendar": [
   [
    "2025-11-23",
@@ -1482,9 +1482,114 @@
   [
    "2026-11-22",
    1
+  ],
+  [
+   "2026-11-23",
+   9
   ]
  ],
- "pinned": [],
+ "pinned": [
+  {
+   "name": "000.github.io",
+   "description": "Source of defense.engineer: my site, research explainers and bilingual Borrow to Learn policy pages",
+   "url": "https://github.com/000/000.github.io",
+   "fork": false,
+   "stars": 2,
+   "language": "HTML",
+   "topics": [
+    "cybersecurity",
+    "github-pages",
+    "html",
+    "personal-website"
+   ],
+   "pushed_at": null
+  },
+  {
+   "name": "PDF",
+   "description": "Python and PHP tools to stamp, watermark and rebuild scanned Thai forms as fillable PDFs",
+   "url": "https://github.com/000/PDF",
+   "fork": false,
+   "stars": 2,
+   "language": "Python",
+   "topics": [
+    "pdf",
+    "php",
+    "pymupdf",
+    "python",
+    "reportlab",
+    "thai",
+    "watermark"
+   ],
+   "pushed_at": null
+  },
+  {
+   "name": "2022Q4-PySpark-EDA-DataPrep",
+   "description": "Coursework: PySpark EDA and data prep, plus my Dataproc jobs and Airflow DAG (MSSQL → HDFS → Spark ML)",
+   "url": "https://github.com/000/2022Q4-PySpark-EDA-DataPrep",
+   "fork": true,
+   "stars": 1,
+   "language": "Jupyter Notebook",
+   "topics": [
+    "apache-airflow",
+    "apache-spark",
+    "data-engineering",
+    "pyspark",
+    "dataproc",
+    "eda",
+    "jupyter-notebook"
+   ],
+   "pushed_at": null
+  },
+  {
+   "name": "000",
+   "description": "Profile README: neofetch-style SVG, live issue poll and daily feed, rebuilt by GitHub Actions",
+   "url": "https://github.com/000/000",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "github-actions",
+    "github-profile",
+    "profile-readme",
+    "python",
+    "svg"
+   ],
+   "pushed_at": null
+  },
+  {
+   "name": "background-samplers",
+   "description": "Animated background sampler: 10 canvas modes with keyboard cycling. React, TanStack Router, Vite",
+   "url": "https://github.com/000/background-samplers",
+   "fork": false,
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "canvas-animation",
+    "creative-coding",
+    "react",
+    "tanstack-router",
+    "typescript",
+    "vite"
+   ],
+   "pushed_at": null
+  },
+  {
+   "name": "udacity-nd088-llm-product-proposal",
+   "description": "Udacity ND088: LineGuide industrial robot expert advisor proposal, with an editable slide deck, sources and reproducible verification.",
+   "url": "https://github.com/000/udacity-nd088-llm-product-proposal",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "generative-ai",
+    "llm",
+    "product-proposal",
+    "reproducibility",
+    "udacity"
+   ],
+   "pushed_at": null
+  }
+ ],
  "pinned_source": "github",
  "repos": [
   {
@@ -1495,7 +1600,7 @@
    "stars": 0,
    "language": "Python",
    "topics": [],
-   "pushed_at": "2026-11-22T19:42:09Z"
+   "pushed_at": "2026-11-22T19:44:03Z"
   },
   {
    "name": "udacity-nd088-llm-product-proposal",
@@ -1509,7 +1614,7 @@
   },
   {
    "name": "background-samplers",
-   "description": "",
+   "description": "Animated background sampler: 10 canvas modes with keyboard cycling. React, TanStack Router, Vite",
    "url": "https://github.com/000/background-samplers",
    "fork": false,
    "stars": 0,
@@ -1519,7 +1624,7 @@
   },
   {
    "name": "000.github.io",
-   "description": "",
+   "description": "Source of defense.engineer: my site, research explainers and bilingual Borrow to Learn policy pages",
    "url": "https://github.com/000/000.github.io",
    "fork": false,
    "stars": 2,
@@ -1539,7 +1644,7 @@
   },
   {
    "name": "PDF",
-   "description": "PDF Stamper",
+   "description": "Python and PHP tools to stamp, watermark and rebuild scanned Thai forms as fillable PDFs",
    "url": "https://github.com/000/PDF",
    "fork": false,
    "stars": 2,
@@ -1559,7 +1664,7 @@
   },
   {
    "name": "2022Q4-PySpark-EDA-DataPrep",
-   "description": "",
+   "description": "Coursework: PySpark EDA and data prep, plus my Dataproc jobs and Airflow DAG (MSSQL → HDFS → Spark ML)",
    "url": "https://github.com/000/2022Q4-PySpark-EDA-DataPrep",
    "fork": true,
    "stars": 1,
@@ -1619,7 +1724,7 @@
   },
   {
    "name": "github-for-developers-7",
-   "description": "",
+   "description": "GitHub Training class repo (2018): labs on issues, files, cloning, pull requests and GitHub Desktop",
    "url": "https://github.com/000/github-for-developers-7",
    "fork": false,
    "stars": 1,

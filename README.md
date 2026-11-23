@@ -18,12 +18,12 @@
 ### Featured work
 
 <!-- featured:start -->
-- **[000](https://github.com/000/000)**: Profile README: neofetch-style SVG, live issue poll and daily feed, rebuilt by GitHub Actions <sub>Python</sub>
-- **[udacity-nd088-llm-product-proposal](https://github.com/000/udacity-nd088-llm-product-proposal)**: LLM expert-advisor product proposal (LineGuide) with an editable deck, sources and reproducible verification. <sub>Python</sub>
-- **[2022Q4-PySpark-EDA-DataPrep](https://github.com/000/2022Q4-PySpark-EDA-DataPrep)**: Coursework: PySpark EDA and data prep, plus my Dataproc jobs and Airflow DAG (MSSQL → HDFS → Spark ML) <sub>Jupyter Notebook · ★ 1</sub>
-- **[background-samplers](https://github.com/000/background-samplers)**: Animated background sampler: 10 canvas modes with keyboard cycling. React, TanStack Router, Vite <sub>JavaScript</sub>
 - **[000.github.io](https://github.com/000/000.github.io)**: Source of defense.engineer: my site, research explainers and bilingual Borrow to Learn policy pages <sub>HTML · ★ 2</sub>
 - **[PDF](https://github.com/000/PDF)**: Python and PHP tools to stamp, watermark and rebuild scanned Thai forms as fillable PDFs <sub>Python · ★ 2</sub>
+- **[2022Q4-PySpark-EDA-DataPrep](https://github.com/000/2022Q4-PySpark-EDA-DataPrep)**: Coursework: PySpark EDA and data prep, plus my Dataproc jobs and Airflow DAG (MSSQL → HDFS → Spark ML) <sub>Jupyter Notebook · ★ 1</sub>
+- **[000](https://github.com/000/000)**: Profile README: neofetch-style SVG, live issue poll and daily feed, rebuilt by GitHub Actions <sub>Python</sub>
+- **[background-samplers](https://github.com/000/background-samplers)**: Animated background sampler: 10 canvas modes with keyboard cycling. React, TanStack Router, Vite <sub>JavaScript</sub>
+- **[udacity-nd088-llm-product-proposal](https://github.com/000/udacity-nd088-llm-product-proposal)**: LLM expert-advisor product proposal (LineGuide) with an editable deck, sources and reproducible verification. <sub>Python</sub>
 <!-- featured:end -->
 
 <table>
